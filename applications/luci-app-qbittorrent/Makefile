@@ -12,7 +12,6 @@ PKG_RELEASE:=3
 LUCI_TITLE:=LuCI support for qBittorrent
 LUCI_PKGARCH:=all
 LUCI_DEPENDS:= \
-	+PACKAGE_luci-app-qbittorrent_static:qBittorrent-static \
 	+PACKAGE_luci-app-qbittorrent_dynamic:qbittorrent
 
 define Package/$(PKG_NAME)/config
